@@ -1,0 +1,10 @@
+horizon_db:
+  username: <%= ENV['HZ_DB_USERNAME'] %>
+  password: <%= ENV['HZ_DB_PASSWORD'] %>
+  host: <%= ENV['HZ_DB_HOST'] %>
+  port: <%= ENV['HZ_DB_PORT'] %>
+  database: <%= ENV['HZ_DB_DATABASE'] %>
+  login_timeout: 5
+  timeout: 10
+  tds_version: 42 
+epoc: '1 jan 1970'

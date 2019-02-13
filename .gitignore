@@ -1,0 +1,8 @@
+.env
+.env.*
+.bundle
+tmp/
+.ruby-version
+/vendor
+.ruby-gemset
+.idea
